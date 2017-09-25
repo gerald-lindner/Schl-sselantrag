@@ -1,0 +1,15 @@
+CREATE TABLE  `antrage` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`vorname` TEXT NOT NULL ,
+`nachname` TEXT NOT NULL ,
+`geburtsdatum` DATETIME NOT NULL ,
+`telefon` TEXT NOT NULL ,
+`email` TEXT NOT NULL ,
+`arbeitsplatz` TEXT NOT NULL ,
+`raumnummer` TEXT NOT NULL ,
+`beginn` DATETIME NOT NULL ,
+`ende` DATETIME NOT NULL ,
+`zutritt` BOOLEAN NOT NULL ,
+`versendet` BOOLEAN NOT NULL ,
+`bestatigt` BOOLEAN NOT NULL 
+) ENGINE = MYISAM ;
